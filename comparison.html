@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Four Cities, Four Inclusion Pathways — Cities of Solidarity Moldova</title>
+<meta name="description" content="Comparative evidence from Comrat, Bălți, Chișinău and Cahul shows why Local Action Plans need city-specific investment packages.">
+<meta property="og:title" content="Four Cities, Four Inclusion Pathways — Cities of Solidarity Moldova">
+<meta property="og:description" content="Comparative evidence from Comrat, Bălți, Chișinău and Cahul shows why Local Action Plans need city-specific investment packages.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cities of Solidarity Moldova">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="progress"></div>
+
+<header class="site">
+  <div class="inner">
+    <a class="site-logo" href="index.html" aria-label="Cities of Solidarity Moldova — home">
+      <img src="assets/logos/unhcr-cos-logo-blue.svg" alt="UNHCR — The UN Refugee Agency · Cities of Solidarity">
+    </a>
+    <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="comparison.html" aria-current="page">Four Cities</a>
+      <a href="action-bank.html">Action Bank</a>
+      <a href="results.html">Results Showcase</a>
+      <a href="library.html">LAP Library</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<nav id="chapnav" aria-label="Chapters">
+  <div class="inner">
+    <span class="brand"><b>Data story</b> · Ten chapters</span>
+    <div class="links">
+      <a href="#why">Why it matters</a>
+      <a href="#split">The split</a>
+      <a href="#cities">Four archetypes</a>
+      <a href="#shared">Shared bottlenecks</a>
+      <a href="#housing">Housing</a>
+      <a href="#work">Work &amp; care</a>
+      <a href="#services">Services</a>
+      <a href="#packages">City packages</a>
+      <a href="#invest">What to fund</a>
+      <a href="#synthesis">Synthesis</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ STORY HERO ============ -->
+<header class="story-hero" id="main">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker" style="font-family:var(--font-mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);display:inline-flex;align-items:center;gap:10px">A data story in ten chapters</span>
+      <h1>Four cities,<br><span class="accent">four inclusion pathways</span></h1>
+      <p class="sub">Comparative evidence from Comrat, Bălți, Chișinău and Cahul shows why Local Action Plans need <strong>city-specific investment packages</strong> — not one generic national template.</p>
+      <div class="hero-cities">
+        <a class="city-chip" href="#cities"><span class="dot" style="background:var(--comrat)"></span>Comrat · care</a>
+        <a class="city-chip" href="#cities"><span class="dot" style="background:var(--balti)"></span>Bălți · family</a>
+        <a class="city-chip" href="#cities"><span class="dot" style="background:var(--chisinau)"></span>Chișinău · scale</a>
+        <a class="city-chip" href="#cities"><span class="dot" style="background:var(--cahul)"></span>Cahul · self-reliance</a>
+      </div>
+      <p class="hero-src">Indicative findings from REACH/IMPACT Protection Community Profiling rounds, Apr 2025 – Jun 2026. Purposive samples; not statistically representative. Chart values load from <a href="data/city_comparison.csv">data/city_comparison.csv</a>.</p>
+      <p class="data-status" id="data-status">Loading comparison data…</p>
+    </div>
+    <div class="hero-map" aria-hidden="true">
+      <svg viewBox="0 0 420 560" role="img" aria-label="Stylized map of Moldova with the four profiled cities">
+        <path class="map-shape" d="M150 22 C 200 10, 252 32, 268 72 C 290 112, 330 132, 340 176 C 350 216, 330 250, 335 290 C 340 330, 320 360, 300 390 C 285 416, 290 450, 270 480 C 252 508, 220 542, 195 536 C 175 531, 180 502, 165 486 C 145 466, 120 470, 108 446 C 95 420, 110 396, 100 370 C 88 340, 60 326, 62 290 C 64 258, 90 240, 92 206 C 94 172, 75 150, 85 116 C 95 80, 115 32, 150 22 Z"/>
+        <path class="map-link" d="M152 152 C 190 200, 215 235, 248 282"/>
+        <path class="map-link" d="M248 282 C 246 320, 242 352, 234 392"/>
+        <path class="map-link" d="M234 392 C 218 420, 196 442, 176 470"/>
+        <path class="map-link" d="M152 152 C 120 260, 130 380, 176 470"/>
+        <g class="node">
+          <circle class="halo node-pulse" cx="152" cy="152" r="20" stroke="var(--balti)"/>
+          <circle class="core" cx="152" cy="152" r="10" fill="var(--balti)"/>
+          <text class="map-label" x="176" y="148">Bălți</text>
+          <text class="map-stat" x="176" y="164">63.8% HHs with children</text>
+        </g>
+        <g class="node">
+          <circle class="halo node-pulse" cx="248" cy="282" r="26" stroke="var(--chisinau)" style="animation-delay:.6s"/>
+          <circle class="core" cx="248" cy="282" r="14" fill="var(--chisinau)"/>
+          <text class="map-label" x="278" y="278">Chișinău</text>
+          <text class="map-stat" x="278" y="294">N=532 · largest caseload</text>
+        </g>
+        <g class="node">
+          <circle class="halo node-pulse" cx="234" cy="392" r="19" stroke="var(--comrat)" style="animation-delay:1.2s"/>
+          <circle class="core" cx="234" cy="392" r="9.5" fill="var(--comrat)"/>
+          <text class="map-label" x="258" y="388">Comrat</text>
+          <text class="map-stat" x="258" y="404">27.9% of members aged 60+</text>
+        </g>
+        <g class="node">
+          <circle class="halo node-pulse" cx="176" cy="470" r="19" stroke="var(--cahul)" style="animation-delay:1.8s"/>
+          <circle class="core" cx="176" cy="470" r="9.5" fill="var(--cahul)"/>
+          <text class="map-label" x="200" y="466">Cahul</text>
+          <text class="map-stat" x="200" y="482">40.6% employed</text>
+        </g>
+        <text class="map-cap" x="62" y="548">FOUR PCP ROUNDS · APR 2025 – JUN 2026</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 01 WHY THIS MATTERS ============ -->
+<section class="chapter" id="why">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 01</span> Why this matters</p>
+      <h2 class="sec-title">Inclusion is becoming a <em>municipal</em> question.</h2>
+      <p class="lede">Refugee inclusion in Moldova is moving from emergency response to municipal systems. The question is no longer <em>whether</em> needs exist — it is <strong>which local systems need investment, in which city</strong>. Four Protection Community Profiling rounds now make that comparison possible.</p>
+    </div>
+    <!-- Headline stat cards render here from group "headline" -->
+    <div class="stat-row" id="stat-row" aria-live="polite"></div>
+    <div class="icon-row" data-reveal>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>Housing</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><path d="M3 13h18"/></svg>Work</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>Health</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3"/><path d="M6 21v-2a6 6 0 0112 0v2"/></svg>Childcare</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-2-1.5-5-2-8-1v14c3-1 6-.5 8 1 2-1.5 5-2 8-1V4c-3-1-6-.5-8 1z"/><path d="M12 5v14"/></svg>Education</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H4l2.5-2.5A8 8 0 1121 12z"/><path d="M8.5 11.5h7M8.5 14.5h4"/></svg>Language</span>
+      <span class="icon-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r=".6" fill="currentColor"/></svg>Information</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 THE BIG SPLIT ============ -->
+<section class="chapter alt" id="split">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 02</span> The big comparative split</p>
+      <h2 class="sec-title">Self-reliance rises. Aid dependence falls. <em>City by city.</em></h2>
+      <p class="lede">The four cities sit on a clear gradient. Employment among respondents climbs from roughly 1 in 9 in Comrat to more than 2 in 5 in Cahul — and reliance on humanitarian assistance falls in mirror image.</p>
+    </div>
+    <div class="split-grid">
+      <div class="chart-card" data-reveal data-anim>
+        <h3>Employment rises →</h3>
+        <p class="sub">Respondents employed or self-employed · % of respondents</p>
+        <div class="lolli" id="lolli-employment"></div>
+      </div>
+      <div class="chart-card" data-reveal="2" data-anim>
+        <h3>← Aid dependence falls</h3>
+        <p class="sub">Humanitarian assistance as main household income source · % of HHs</p>
+        <div class="lolli" id="lolli-aid"></div>
+        <p class="footnote">Cahul was surveyed in June 2026, after the phase-down of humanitarian cash assistance — its low aid dependence partly reflects timing as well as genuine city difference.</p>
+      </div>
+    </div>
+    <div class="chart-card" style="margin-top:26px" data-reveal data-anim>
+      <h3>Employment becomes the main income source</h3>
+      <p class="sub">Employment as main household income source · % of HHs</p>
+      <div class="lolli" id="lolli-empincome"></div>
+    </div>
+    <div class="takeaway" data-reveal>
+      <p><b>What this means:</b> Cahul is the self-reliance frontrunner. Chișinău has scale and formalization potential. Bălți has family-heavy needs with real activation potential. Comrat's caseload sits largely outside the labour market — its agenda is care, not activation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 FOUR CITY ARCHETYPES ============ -->
+<section class="chapter" id="cities">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 03</span> Four city archetypes</p>
+      <h2 class="sec-title">Same country. <em>Four different caseloads.</em></h2>
+      <p class="lede">Each city hosts a distinct population profile — descriptive types, not rankings. Bar lengths show each indicator as a share of the relevant group.</p>
+    </div>
+    <div class="arch-grid">
+      <article class="arch-card" style="--c:var(--comrat);--ci:var(--comrat-ink)" data-reveal data-anim>
+        <div class="arch-head">
+          <div class="cname">Comrat</div>
+          <div class="n" data-city="Comrat">N = …</div>
+          <span class="type">Ageing, high-dependency, settled caseload</span>
+        </div>
+        <div class="arch-stats" data-city="Comrat"></div>
+        <div class="arch-foot"><b>Care first:</b> health, social support and housing repair — with 36.9% planning permanent stay, the most settled 2025 caseload.</div>
+      </article>
+      <article class="arch-card" style="--c:var(--balti);--ci:var(--balti-ink)" data-reveal="2" data-anim>
+        <div class="arch-head">
+          <div class="cname">Bălți</div>
+          <div class="n" data-city="Bălți">N = …</div>
+          <span class="type">Family-heavy rental city with tenure and enrolment gaps</span>
+        </div>
+        <div class="arch-stats" data-city="Bălți"></div>
+        <div class="arch-foot"><b>Family services:</b> childcare, school enrolment and housing stability — designed to serve host families equally, given the strongest return intentions (36.2%).</div>
+      </article>
+      <article class="arch-card" style="--c:var(--chisinau);--ci:var(--chisinau-ink)" data-reveal="3" data-anim>
+        <div class="arch-head">
+          <div class="cname">Chișinău</div>
+          <div class="n" data-city="Chișinău">N = …</div>
+          <span class="type">Metropolitan pressure point at scale</span>
+        </div>
+        <div class="arch-stats" data-city="Chișinău"></div>
+        <div class="arch-foot"><b>Formalize at scale:</b> housing cost, tenure informality, employment formalization (≈1 in 3 employees lack contracts) and service navigation.</div>
+      </article>
+      <article class="arch-card" style="--c:var(--cahul);--ci:var(--cahul-ink)" data-reveal="4" data-anim>
+        <div class="arch-head">
+          <div class="cname">Cahul</div>
+          <div class="n" data-city="Cahul">N = …</div>
+          <span class="type">Self-reliance frontrunner consolidating inclusion</span>
+        </div>
+        <div class="arch-stats" data-city="Cahul"></div>
+        <div class="arch-foot"><b>Consolidate:</b> employment is won; housing affordability and childcare for second earners now decide whether inclusion holds.</div>
+      </article>
+    </div>
+    <p class="footnote">*Share of households with school-aged children. Sub-sample sizes: Comrat n=39, Bălți n=56, Chișinău n=244, Cahul n=52.</p>
+  </div>
+</section>
+
+<!-- ============ 04 UNIVERSAL BOTTLENECKS ============ -->
+<section class="chapter alt" id="shared">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 04</span> Universal bottlenecks</p>
+      <h2 class="sec-title">Some walls stand in <em>every</em> city.</h2>
+      <p class="lede">Five constraints recur across all four rounds. They are shared — but the way they combine differs by city, which is exactly why the response has to be local.</p>
+    </div>
+    <div class="heat" data-reveal>
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left">Bottleneck</th>
+            <th><span style="color:var(--comrat-ink)">Comrat</span></th>
+            <th><span style="color:var(--balti-ink)">Bălți</span></th>
+            <th><span style="color:var(--chisinau-ink)">Chișinău</span></th>
+            <th><span style="color:var(--cahul-ink)">Cahul</span></th>
+          </tr>
+        </thead>
+        <tbody id="heat-body"></tbody>
+      </table>
+    </div>
+    <p class="footnote">*Dominant reason for non-enrolment among households with children not enrolled in Moldovan schools — an integration-policy question, not a school-capacity one. Counts shown where n&lt;30. Cell shading indicates relative severity within each row.</p>
+    <div class="takeaway" data-reveal>
+      <p><b>What this means:</b> health-insurance enrolment support is the highest-leverage, lowest-cost intervention available to every Local Action Plan — and care, language and housing cost pressure belong in each city's package, calibrated locally.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 HOUSING PRESSURE ============ -->
+<section class="chapter" id="housing">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 05</span> Housing pressure</p>
+      <h2 class="sec-title">Where the rent <em>eats the income.</em></h2>
+      <p class="lede">Outside Comrat, 56–67% of households spend more than half of monthly income on housing and utilities. Add informal tenure and residential churn, and Chișinău emerges as the clearest housing-pressure case.</p>
+    </div>
+    <div class="house-grid" id="house-grid" data-anim data-reveal></div>
+    <div class="duo-grid">
+      <div class="chart-card" data-reveal data-anim>
+        <h3>Informality &amp; churn compound the burden</h3>
+        <p class="sub">Selected housing indicators · % of households</p>
+        <div class="dotplot" id="dp-informality"></div>
+        <p class="footnote">†Not directly comparable: Comrat/Bălți asked renters only (n=40/70); Chișinău/Cahul asked all households. A further 22.5% of Comrat renters preferred not to answer — likely masking informality.</p>
+      </div>
+      <div class="chart-card" data-reveal="2" data-anim>
+        <h3>Comrat's housing question is different</h3>
+        <p class="sub">Tenure mix &amp; quality · % of households</p>
+        <div class="dotplot" id="dp-tenure"></div>
+        <p class="footnote">Comrat is a hosting city: over half of households are hosted or housed free of charge — an asset to support, not replace. Its housing agenda is repair, insulation and registered leases.</p>
+      </div>
+    </div>
+    <div class="takeaway" data-reveal>
+      <p><b>What this means:</b> housing is where LAPs can most visibly generate shared benefits — legalizing tenancies, upgrading stock and bridging utility costs strengthen the whole local rental market, not only refugee households. Forced moves remain rare everywhere (1–3%).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 ECONOMIC INCLUSION & CARE ============ -->
+<section class="chapter alt" id="work">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 06</span> Economic inclusion &amp; care constraints</p>
+      <h2 class="sec-title">The skills exist. <em>The barriers decide.</em></h2>
+      <p class="lede">Roughly six in ten respondents worked before displacement. What separates that from employment today is not motivation — it is childcare, elder care, language and informality.</p>
+    </div>
+    <div class="slope-wrap" data-reveal data-anim>
+      <h3 style="font-size:21px;font-weight:500;margin-bottom:4px">From pre-war employment to employment in Moldova</h3>
+      <p class="sub" style="font-size:13.5px;color:var(--ink-faint);margin-bottom:10px">% of respondents employed before leaving Ukraine vs employed now</p>
+      <div id="slope-chart"></div>
+      <p class="footnote">*Pre-displacement employment topline not published for Comrat. Recalculated indicators; individual trajectories not tracked — the two points compare shares, not the same people.</p>
+    </div>
+    <div class="care-band" data-reveal>
+      <h3>Care is the leading activation barrier — everywhere</h3>
+      <p class="sub" style="font-size:13.5px;color:var(--ink-faint)">Respondents not working due to childcare, elder care or care for family members with specific needs</p>
+      <div class="care-cells" id="care-cells"></div>
+    </div>
+    <div class="flow" data-reveal>
+      <div class="step"><h4><span class="k">EVIDENCE</span>Skills exist</h4><p>59–69% worked before displacement; a quarter of employed respondents in Chișinău say their qualifications exceed their current job.</p></div>
+      <div class="arrow">→</div>
+      <div class="step"><h4><span class="k">BARRIERS</span>Activation is blocked</h4><p>Care duties (20–25%), no Romanian (51–63%), childcare gaps, and informality — about 1 in 3 Chișinău employees lack a written contract.</p></div>
+      <div class="arrow">→</div>
+      <div class="step"><h4><span class="k">IMPLICATION</span>Unblock, don't just match</h4><p>Vocational Romanian, childcare-linked activation, and contract formalization convert existing skills into stable local employment.</p></div>
+    </div>
+    <div class="takeaway" data-reveal>
+      <p><b>What this means:</b> activation potential is real in Bălți, Chișinău and Cahul. In Comrat — with only 10 employed respondents and 14.6% unable to work for health reasons — the realistic economic agenda is smaller, and right-sized around self-employment and part-time pathways.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 SERVICES ============ -->
+<section class="chapter" id="services">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 07</span> Health · education · childcare · information</p>
+      <h2 class="sec-title">Four systems, <em>one enrolment logic.</em></h2>
+      <p class="lede">Beyond housing and work, four service systems shape daily inclusion. Each has one clear, fundable fix.</p>
+    </div>
+    <div class="panel-grid">
+      <div class="panel" style="--ac:var(--red);--tint:rgba(210,90,69,.10)" data-reveal data-anim>
+        <div class="p-head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></span><h3>Health</h3></div>
+        <div class="p-key">83–89% <small>uninsured in every city</small></div>
+        <div class="mini-bars" data-group="health_affordability"></div>
+        <p class="body">Bars: could not afford healthcare. Affordability barriers concentrate in Comrat — on top of chronic conditions in ~46% of households there. Insurance enrolment is the structural fix everywhere.</p>
+      </div>
+      <div class="panel" style="--ac:var(--chisinau);--tint:rgba(0,114,188,.08)" data-reveal="2" data-anim>
+        <div class="p-head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5c-2-1.5-5-2-8-1v14c3-1 6-.5 8 1 2-1.5 5-2 8-1V4c-3-1-6-.5-8 1z"/><path d="M12 5v14"/></svg></span><h3>Education</h3></div>
+        <div class="p-key">64–77% <small>of HHs with school-aged children have all enrolled</small></div>
+        <div class="mini-bars" data-group="education_enrolment"></div>
+        <p class="body">Where children are not enrolled, the dominant reason everywhere is preference for the Ukrainian online curriculum. Outreach must engage the curriculum question — recognition, catch-up and dual-track models — not assume capacity limits.</p>
+      </div>
+      <div class="panel" style="--ac:var(--balti-ink);--tint:rgba(255,199,64,.16)" data-reveal data-anim>
+        <div class="p-head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="7" r="3"/><path d="M6 21v-2a6 6 0 0112 0v2"/></svg></span><h3>Childcare</h3></div>
+        <div class="p-key">≈50–71% <small>can access childcare — a coin-flip outside Cahul</small></div>
+        <div class="mini-bars" data-group="childcare_access"></div>
+        <p class="body">Childcare is economic infrastructure: every unavailable place keeps a parent — usually a mother — out of work. Small sub-samples (n=15–92); counts shown where n&lt;30.</p>
+      </div>
+      <div class="panel" style="--ac:var(--purple);--tint:rgba(160,151,227,.14)" data-reveal="2" data-anim>
+        <div class="p-head"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="8" r=".6" fill="currentColor"/></svg></span><h3>Information &amp; digital</h3></div>
+        <div class="p-key">41% <small>of Chișinău HHs not confident using the internet for services</small></div>
+        <div class="mini-bars" data-group="information"></div>
+        <p class="body">Bars: no information needs reported — demand shrinks as self-reliance grows. Navigation support belongs inside existing municipal front doors, not in parallel refugee information services. Digital module measured only in Chișinău and Cahul.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 CITY PACKAGES ============ -->
+<section class="chapter alt" id="packages">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 08</span> City-specific priority packages</p>
+      <h2 class="sec-title">From evidence to <em>Local Action Plans.</em></h2>
+      <p class="lede">Each city's findings translate into one coherent municipal investment package — evidence first, then the project types it justifies. And one honest note on what the data does <strong>not</strong> support.</p>
+    </div>
+    <div class="pack-grid">
+      <article class="pack" style="--c:var(--comrat);--ci:var(--comrat-ink);--tint:rgba(210,90,69,.09)" data-reveal>
+        <div class="p-top">
+          <span class="p-city">Comrat</span>
+          <h3>The Care Package</h3>
+        </div>
+        <div class="ev">
+          <p class="lb">Key evidence</p>
+          <div class="chips">
+            <span class="chip"><b>27.9%</b> aged 60+</span>
+            <span class="chip"><b>45.6%</b> chronic condition</span>
+            <span class="chip"><b>14.6%</b> unable to work</span>
+            <span class="chip"><b>36.9%</b> permanent stay</span>
+          </div>
+        </div>
+        <div class="acts">
+          <p class="lb">Priority actions</p>
+          <ul>
+            <li>Community-based social care and home care for older residents</li>
+            <li>Health-insurance enrolment plus medication / chronic-care support</li>
+            <li>Targeted social assistance bridging</li>
+            <li>Modest housing repair-for-lease-registration scheme</li>
+          </ul>
+        </div>
+        <div class="not"><b>Not data-supported:</b> large-scale labour activation or job-matching infrastructure — the activation pool is small; right-size around self-employment and part-time pathways.</div>
+      </article>
+      <article class="pack" style="--c:var(--balti);--ci:var(--balti-ink);--tint:rgba(255,199,64,.16)" data-reveal="2">
+        <div class="p-top">
+          <span class="p-city">Bălți</span>
+          <h3>The Family Package</h3>
+        </div>
+        <div class="ev">
+          <p class="lb">Key evidence</p>
+          <div class="chips">
+            <span class="chip"><b>63.8%</b> HHs with children</span>
+            <span class="chip"><b>35.7%</b> none enrolled</span>
+            <span class="chip"><b>43.8%</b> single adult + deps</span>
+            <span class="chip"><b>41.9%</b> unstable housing</span>
+          </div>
+        </div>
+        <div class="acts">
+          <p class="lb">Priority actions</p>
+          <ul>
+            <li>School enrolment outreach with curriculum bridging</li>
+            <li>Kindergarten / creche expansion</li>
+            <li>Childcare-linked employment activation for single parents</li>
+            <li>Tenure stabilization in Bălțiul Nou and Dacia</li>
+          </ul>
+        </div>
+        <div class="not"><b>Not data-supported:</b> permanent-integration infrastructure premised on long-term stay — return intentions (36.2%) favour investments that serve host families equally.</div>
+      </article>
+      <article class="pack" style="--c:var(--chisinau);--ci:var(--chisinau-ink);--tint:rgba(0,114,188,.08)" data-reveal="3">
+        <div class="p-top">
+          <span class="p-city">Chișinău</span>
+          <h3>Formalization at Scale</h3>
+        </div>
+        <div class="ev">
+          <p class="lb">Key evidence</p>
+          <div class="chips">
+            <span class="chip"><b>66.7%</b> housing &gt;50% income</span>
+            <span class="chip"><b>41.5%</b> no tenure doc</span>
+            <span class="chip"><b>≈1 in 3</b> no work contract</span>
+            <span class="chip"><b>41%</b> low e-service confidence</span>
+          </div>
+        </div>
+        <div class="acts">
+          <p class="lb">Priority actions</p>
+          <ul>
+            <li>Rental-contract formalization with landlord incentives</li>
+            <li>Utility / housing cost bridging tied to registered leases</li>
+            <li>Employment formalization and skills recognition</li>
+            <li>One-stop service navigation with digital support in each sector</li>
+          </ul>
+        </div>
+        <div class="not"><b>Not data-supported:</b> basic-needs distribution systems — 15.8% report no urgent needs; the data points to systems work, not parallel aid.</div>
+      </article>
+      <article class="pack" style="--c:var(--cahul);--ci:var(--cahul-ink);--tint:rgba(50,193,137,.10)" data-reveal="4">
+        <div class="p-top">
+          <span class="p-city">Cahul</span>
+          <h3>The Consolidation Package</h3>
+        </div>
+        <div class="ev">
+          <p class="lb">Key evidence</p>
+          <div class="chips">
+            <span class="chip"><b>40.6%</b> employed</span>
+            <span class="chip"><b>69.8%</b> plan to stay</span>
+            <span class="chip"><b>59.4%</b> housing &gt;50% income</span>
+            <span class="chip"><b>83.0%</b> uninsured</span>
+          </div>
+        </div>
+        <div class="acts">
+          <p class="lb">Priority actions</p>
+          <ul>
+            <li>Housing affordability support, transitioning to social-housing criteria</li>
+            <li>Childcare expansion for working parents</li>
+            <li>Vocational Romanian</li>
+            <li>Health-insurance enrolment through employers</li>
+          </ul>
+        </div>
+        <div class="not"><b>Not data-supported:</b> humanitarian cash or food distribution — 2.8% aid dependence and 27.4% no-needs indicate the caseload has largely exited emergency support.</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 09 INVESTMENT MATRIX ============ -->
+<section class="chapter" id="invest">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow"><span class="ch">Chapter 09</span> Investment implications</p>
+      <h2 class="sec-title">What to fund, <em>where.</em></h2>
+      <p class="lede">Ten fundable project types emerge from the comparison. Priority reflects strength of evidence and breadth of benefit across refugee <em>and</em> host populations — no project type should be designed as a parallel humanitarian system.</p>
+    </div>
+    <div class="matrix-card" data-reveal>
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th style="text-align:left">Project type</th>
+            <th>Comrat</th><th>Bălți</th><th>Chișinău</th><th>Cahul</th>
+            <th>Type</th><th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="proj">Health-insurance enrolment facilitation<small>83–89% uninsured in every city</small></td>
+            <td><span class="mdot" style="--c:var(--comrat)"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Rental formalization + housing cost bridging<small>56–67% spend &gt;50% of income on housing</small></td>
+            <td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Mixed</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Childcare &amp; preschool expansion<small>Care duties block 20–25%; access 47–71%</small></td>
+            <td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Hard + soft</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">School enrolment &amp; curriculum bridging<small>35.7% / 25.6% of HHs with school-aged children, none enrolled</small></td>
+            <td><span class="mdot" style="--c:var(--comrat)"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot off"></span></td><td><span class="mdot off"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Community-based social &amp; home care<small>60+ shares 20–28%; severe disability 18–20%</small></td>
+            <td><span class="mdot" style="--c:var(--comrat)"></span></td><td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot off"></span></td>
+            <td class="ptype">Mixed</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Vocational Romanian + employment counselling<small>51–63% no Romanian; top barrier among unemployed</small></td>
+            <td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio high">High</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Employment &amp; business formalization support<small>≈1 in 3 Chișinău employees without contracts</small></td>
+            <td><span class="mdot off"></span></td><td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio med">Medium</span></td>
+          </tr>
+          <tr>
+            <td class="proj">One-stop service navigation &amp; digital inclusion<small>Information gaps &amp; e-service confidence (Chișinău)</small></td>
+            <td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot" style="--c:var(--chisinau)"></span></td><td><span class="mdot off"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio med">Medium</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Housing repair / insulation for registered leases<small>25.2% / 22.6% report housing problems</small></td>
+            <td><span class="mdot" style="--c:var(--comrat)"></span></td><td><span class="mdot off"></span></td><td><span class="mdot off"></span></td><td><span class="mdot" style="--c:var(--cahul)"></span></td>
+            <td class="ptype">Hard</td><td><span class="prio med">Medium</span></td>
+          </tr>
+          <tr>
+            <td class="proj">Community-centre programming (mixed activities)<small>56–77% no community participation</small></td>
+            <td><span class="mdot" style="--c:var(--comrat)"></span></td><td><span class="mdot" style="--c:var(--balti)"></span></td><td><span class="mdot off"></span></td><td><span class="mdot off"></span></td>
+            <td class="ptype">Soft</td><td><span class="prio low">Low</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="legend" data-reveal>
+      <span class="li"><span class="mdot" style="--c:var(--blue)"></span>Priority city</span>
+      <span class="li"><span class="mdot off"></span>Not a lead city for this project type</span>
+      <span class="li"><span class="prio high">High</span> strong evidence, broad benefit</span>
+      <span class="li"><span class="prio med">Medium</span></span>
+      <span class="li"><span class="prio low">Low</span> better embedded in larger packages</span>
+    </div>
+    <p class="footnote">Soft = services, outreach, facilitation. Hard = physical works and infrastructure. Mixed = both. Related action ideas per project type are collected in the <a href="action-bank.html">Action Bank</a>.</p>
+  </div>
+</section>
+
+<!-- ============ 10 CLOSING ============ -->
+<section class="chapter closing" id="synthesis">
+  <div class="wrap-n">
+    <div data-reveal>
+      <p class="eyebrow" style="justify-content:center"><span class="ch">Chapter 10</span> Synthesis</p>
+      <h2 class="sec-title" style="margin-left:auto;margin-right:auto">One template will <em>misallocate</em> resources.</h2>
+      <p class="lede">The evidence points to municipal-system investment, not parallel humanitarian systems. The right package differs by city: <strong style="color:var(--comrat-ink)">care in Comrat</strong>, <strong style="color:var(--balti-ink)">family services in Bălți</strong>, <strong style="color:var(--chisinau-ink)">formalization in Chișinău</strong>, and <strong style="color:var(--cahul-ink)">consolidation in Cahul</strong> — while shared services like insurance enrolment, Romanian language and housing support serve refugees and host communities alike.</p>
+    </div>
+    <div class="converge" data-reveal data-anim>
+      <svg viewBox="0 0 720 260">
+        <path class="slope-line" d="M60 40 C 260 40, 420 118, 600 130" stroke="var(--comrat)"/>
+        <path class="slope-line" d="M60 100 C 260 100, 420 124, 600 130" stroke="var(--balti)" style="transition-delay:.15s"/>
+        <path class="slope-line" d="M60 160 C 260 160, 420 136, 600 130" stroke="var(--chisinau)" style="transition-delay:.3s"/>
+        <path class="slope-line" d="M60 220 C 260 220, 420 142, 600 130" stroke="var(--cahul)" style="transition-delay:.45s"/>
+        <circle cx="60" cy="40" r="6" fill="var(--comrat)"/>
+        <circle cx="60" cy="100" r="6" fill="var(--balti)"/>
+        <circle cx="60" cy="160" r="6" fill="var(--chisinau)"/>
+        <circle cx="60" cy="220" r="6" fill="var(--cahul)"/>
+        <text class="slope-lab" x="52" y="44" text-anchor="end">Comrat · care</text>
+        <text class="slope-lab" x="52" y="104" text-anchor="end">Bălți · family</text>
+        <text class="slope-lab" x="52" y="164" text-anchor="end">Chișinău · formalization</text>
+        <text class="slope-lab" x="52" y="224" text-anchor="end">Cahul · consolidation</text>
+        <circle cx="600" cy="130" r="13" fill="var(--ink)"/>
+        <circle cx="600" cy="130" r="21" fill="none" stroke="var(--ink)" stroke-opacity=".25"/>
+        <text class="slope-val" x="626" y="126">Stronger</text>
+        <text class="slope-val" x="626" y="142">municipal systems</text>
+      </svg>
+    </div>
+    <div data-reveal>
+      <span class="callout">Shared services<span class="sep"></span>Local priorities<span class="sep"></span>Inclusion by design</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT THE EVIDENCE ============ -->
+<section class="chapter alt" id="evidence" style="padding:80px 0">
+  <div class="wrap">
+    <div class="sec-head" data-reveal style="margin-bottom:36px">
+      <p class="eyebrow"><span class="ch">Notes</span> About the evidence</p>
+    </div>
+    <div class="evidence-cols" data-reveal>
+      <div>
+        <p class="lb">Source &amp; samples</p>
+        <p>REACH/IMPACT Protection Community Profiling (PCP) rounds: Comrat N=103 households (Apr 2025), Bălți N=105 (Apr 2025), Chișinău N=532 (Oct–Nov 2025), Cahul N=106 (Jun 2026) — 846 households and 2,143 individuals in total. Aggregated data only; no personally identifiable information.</p>
+      </div>
+      <div>
+        <p class="lb">How to read the numbers</p>
+        <p>All rounds used purposive, non-probability sampling from UNHCR contact lists supplemented by field recruitment. Findings are <strong>indicative only</strong> and not statistically representative. No statistical significance testing was performed. Sub-samples under 30 are shown as counts.</p>
+      </div>
+      <div>
+        <p class="lb">Comparability</p>
+        <p>50+ indicators were harmonized across cities; each carries a comparability rating in the Comparative Indicator Matrix. Rounds are 6–14 months apart — timing effects (notably the humanitarian cash phase-down before the Cahul round) confound some comparisons and are flagged on the relevant charts. Tenure documentation uses different denominators in the 2025 vs later rounds and is marked accordingly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div class="flogo">
+        <img src="assets/logos/unhcr-cos-logo-white.svg" alt="UNHCR — The UN Refugee Agency · Cities of Solidarity">
+        <p>Cities of Solidarity supports Moldovan municipalities to lead on refugee inclusion while strengthening services for all residents — aligning humanitarian, development and municipal systems.</p>
+      </div>
+      <div>
+        <p class="lb">Explore</p>
+        <ul>
+          <li><a href="about.html">About the initiative</a></li>
+          <li><a href="comparison.html">Four Cities data story</a></li>
+          <li><a href="action-bank.html">Action Bank</a></li>
+          <li><a href="results.html">Results Showcase</a></li>
+          <li><a href="methodology.html">Methodology &amp; investment</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="lb">Documents</p>
+        <ul>
+          <li><a href="library.html">LAP Library (EN · RO · RU)</a></li>
+          <li><a href="data/city_comparison.csv">City comparison data (CSV)</a></li>
+          <li><a href="data/action_bank.csv">Action Bank data (CSV)</a></li>
+          <li><a href="data/results_showcase.csv">Results Showcase data (CSV)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot">
+      <span>© <span data-year>2026</span> UNHCR Moldova — Cities of Solidarity · Comparative City Analysis for Refugee Inclusion</span>
+      <span>Companion to the analytical memo &amp; Comparative Indicator Matrix</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data-loader.js"></script>
+<script src="js/main.js"></script>
+<script src="js/comparison.js"></script>
+</body>
+</html>

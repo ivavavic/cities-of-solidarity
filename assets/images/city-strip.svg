@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-label="Stylized illustration of an inclusive city: park, housing, school and clinic connected by streets">
+  <!-- Original illustration for the Cities of Solidarity site (UNHCR Moldova palette). -->
+  <defs>
+    <style>
+      .ln{stroke:#2B2A25;stroke-width:2;fill:none;stroke-linejoin:round}
+      .blue{fill:#0072BC}.cyan{fill:#6CD8FD}.green{fill:#32C189}.yellow{fill:#FFC740}
+      .paper{fill:#FFFDF8}.ink{fill:#2B2A25}.red{fill:#D25A45}
+    </style>
+  </defs>
+  <!-- ground band -->
+  <rect x="0" y="150" width="1200" height="30" class="blue" opacity=".12"/>
+  <path d="M0 150 H1200" class="ln"/>
+  <!-- park -->
+  <path d="M20 150 q60 -46 120 0 Z" class="green" opacity=".8"/>
+  <g class="ln">
+    <path d="M70 150 V116 M70 116 l-13 13 M70 116 l13 13 M70 130 l-9 9 M70 130 l9 9"/>
+    <circle cx="130" cy="132" r="14" class="green"/>
+    <path d="M130 146 V150"/>
+  </g>
+  <!-- apartment block with solar -->
+  <g>
+    <rect x="205" y="58" width="96" height="92" class="paper"/>
+    <rect x="205" y="58" width="96" height="92" class="ln" fill="none"/>
+    <path d="M205 58 l20 -18 h56 l20 18 Z" class="cyan"/>
+    <path d="M205 58 l20 -18 h56 l20 18 Z" class="ln" fill="none"/>
+    <path d="M228 50 h18 M252 50 h18" stroke="#2B2A25" stroke-width="2"/>
+    <g class="cyan">
+      <rect x="217" y="70" width="16" height="14"/><rect x="245" y="70" width="16" height="14"/><rect x="273" y="70" width="16" height="14"/>
+      <rect x="217" y="94" width="16" height="14"/><rect x="273" y="94" width="16" height="14"/>
+      <rect x="217" y="118" width="16" height="14"/><rect x="245" y="118" width="16" height="14"/>
+    </g>
+    <rect x="245" y="94" width="16" height="14" class="yellow"/>
+    <rect x="266" y="126" width="20" height="24" class="blue"/>
+  </g>
+  <!-- connector dots -->
+  <g fill="#0072BC"><circle cx="345" cy="150" r="4"/><circle cx="375" cy="150" r="4"/><circle cx="405" cy="150" r="4"/></g>
+  <!-- school with clock -->
+  <g>
+    <rect x="440" y="72" width="180" height="78" class="paper"/>
+    <rect x="440" y="72" width="180" height="78" class="ln" fill="none"/>
+    <path d="M505 72 v-26 l25 -14 25 14 v26" class="paper"/>
+    <path d="M505 72 v-26 l25 -14 25 14 v26" class="ln"/>
+    <circle cx="530" cy="52" r="8" class="paper"/>
+    <circle cx="530" cy="52" r="8" class="ln"/>
+    <path d="M530 52 v-5 M530 52 h4" stroke="#2B2A25" stroke-width="1.6"/>
+    <g class="cyan">
+      <rect x="452" y="86" width="20" height="18"/><rect x="480" y="86" width="20" height="18"/>
+      <rect x="560" y="86" width="20" height="18"/><rect x="588" y="86" width="20" height="18"/>
+      <rect x="452" y="116" width="20" height="18"/><rect x="588" y="116" width="20" height="18"/>
+    </g>
+    <rect x="518" y="118" width="24" height="32" class="blue"/>
+    <path d="M512 150 h36" class="ln"/>
+  </g>
+  <!-- trees between -->
+  <g class="ln">
+    <circle cx="670" cy="128" r="16" class="green"/><path d="M670 144 V150"/>
+    <circle cx="706" cy="136" r="11" class="green"/><path d="M706 147 V150"/>
+  </g>
+  <!-- clinic -->
+  <g>
+    <rect x="760" y="84" width="120" height="66" class="paper"/>
+    <rect x="760" y="84" width="120" height="66" class="ln" fill="none"/>
+    <rect x="884" y="100" width="70" height="50" class="paper"/>
+    <rect x="884" y="100" width="70" height="50" class="ln" fill="none"/>
+    <rect x="796" y="60" width="30" height="30" class="red"/>
+    <path d="M811 66 v18 M802 75 h18" stroke="#FFFDF8" stroke-width="6"/>
+    <g class="cyan"><rect x="772" y="98" width="26" height="20"/><rect x="836" y="98" width="26" height="20"/><rect x="896" y="112" width="20" height="16"/><rect x="926" y="112" width="20" height="16"/></g>
+    <rect x="806" y="120" width="26" height="30" class="blue"/>
+  </g>
+  <!-- referral lines / network -->
+  <g stroke="#32C189" stroke-width="2.5" fill="none" opacity=".85">
+    <path d="M300 46 C 380 16, 470 22, 530 26"/>
+    <path d="M530 26 C 640 32, 720 54, 811 60"/>
+  </g>
+  <g fill="#32C189"><circle cx="300" cy="46" r="5"/><circle cx="530" cy="26" r="5"/><circle cx="811" cy="60" r="5"/></g>
+  <!-- hills to the right -->
+  <path d="M960 150 q60 -50 120 0 Z" class="green" opacity=".75"/>
+  <path d="M1060 150 q70 -64 140 0 Z" class="blue" opacity=".18"/>
+  <g class="ln"><path d="M1020 150 V120 M1020 120 l-11 11 M1020 120 l11 11"/></g>
+  <!-- sun -->
+  <circle cx="1130" cy="42" r="16" class="yellow"/>
+  <circle cx="1130" cy="42" r="16" class="ln" fill="none"/>
+</svg>

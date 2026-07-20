@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Action Bank — Cities of Solidarity Moldova</title>
+<meta name="description" content="A searchable repository of municipal action ideas for refugee inclusion — filter by sector, city, status and scale-up potential.">
+<meta property="og:title" content="Action Bank — Cities of Solidarity Moldova">
+<meta property="og:description" content="A searchable repository of municipal action ideas for refugee inclusion — filter by sector, city, status and scale-up potential.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cities of Solidarity Moldova">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site">
+  <div class="inner">
+    <a class="site-logo" href="index.html" aria-label="Cities of Solidarity Moldova — home">
+      <img src="assets/logos/unhcr-cos-logo-blue.svg" alt="UNHCR — The UN Refugee Agency · Cities of Solidarity">
+    </a>
+    <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="comparison.html">Four Cities</a>
+      <a href="action-bank.html" aria-current="page">Action Bank</a>
+      <a href="results.html">Results Showcase</a>
+      <a href="library.html">LAP Library</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+  </div>
+</header>
+
+<header class="page-hero" id="main">
+  <div class="wrap">
+    <p class="eyebrow"><span class="ch">Repository</span> Action ideas across sectors</p>
+    <h1>The <em>Action Bank.</em></h1>
+    <p class="lede">A growing repository of municipal action ideas for refugee inclusion — colour-coded by sector, filterable by city and readiness. It starts with the <strong>12 priority actions of the Comrat Local Action Plan</strong> and the simplified example actions developed for the Bălți LAP workshop, which any municipality can adapt, combine or replace.</p>
+    <p class="data-status" id="data-status" style="margin-top:22px">Loading the Action Bank…</p>
+  </div>
+</header>
+
+<section class="chapter" style="padding-top:44px">
+  <div class="wrap">
+
+    <!-- Filters: options are generated from the data file -->
+    <div class="filters" role="search" aria-label="Filter actions">
+      <label>Keyword search
+        <input type="search" id="f-search" placeholder="e.g. childcare, housing, telemedicine…" autocomplete="off">
+      </label>
+      <label>Sector
+        <select id="f-sector"><option value="">All sectors</option></select>
+      </label>
+      <label>City
+        <select id="f-city"><option value="">All cities</option></select>
+      </label>
+      <label>Status
+        <select id="f-status"><option value="">All statuses</option></select>
+      </label>
+      <label>Scale-up potential
+        <select id="f-scale"><option value="">All scale-up levels</option></select>
+      </label>
+      <div class="reset"><button type="button" id="f-reset">Clear filters</button></div>
+    </div>
+
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <div class="actions-grid" id="actions-grid"></div>
+
+    <div class="takeaway" data-reveal style="margin-top:44px">
+      <p><b>How to use this bank:</b> statuses run from <em>concept</em> (an idea to adapt) through <em>pilot</em> to <em>investment-ready</em> (specified in a Local Action Plan with owner, cost and timeline). All content loads from <a href="data/action_bank.csv">data/action_bank.csv</a> — adding an action is one new row in the master Excel file; see the README for the two-minute workflow.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div class="flogo">
+        <img src="assets/logos/unhcr-cos-logo-white.svg" alt="UNHCR — The UN Refugee Agency · Cities of Solidarity">
+        <p>Cities of Solidarity supports Moldovan municipalities to lead on refugee inclusion while strengthening services for all residents — aligning humanitarian, development and municipal systems.</p>
+      </div>
+      <div>
+        <p class="lb">Explore</p>
+        <ul>
+          <li><a href="about.html">About the initiative</a></li>
+          <li><a href="comparison.html">Four Cities data story</a></li>
+          <li><a href="action-bank.html">Action Bank</a></li>
+          <li><a href="results.html">Results Showcase</a></li>
+          <li><a href="methodology.html">Methodology &amp; investment</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="lb">Documents</p>
+        <ul>
+          <li><a href="library.html">LAP Library (EN · RO · RU)</a></li>
+          <li><a href="data/city_comparison.csv">City comparison data (CSV)</a></li>
+          <li><a href="data/action_bank.csv">Action Bank data (CSV)</a></li>
+          <li><a href="data/results_showcase.csv">Results Showcase data (CSV)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot">
+      <span>© <span data-year>2026</span> UNHCR Moldova — Cities of Solidarity</span>
+      <span>Local Action Plans for inclusive municipal development</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data-loader.js"></script>
+<script src="js/main.js"></script>
+<script src="js/action-bank.js"></script>
+</body>
+</html>

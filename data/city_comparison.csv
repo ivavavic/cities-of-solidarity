@@ -1,0 +1,100 @@
+city,indicator_group,indicator_name,value,display,unit,year,source,note,severity,display_order
+All,headline,Refugee households surveyed,846,,households,2025–2026,"REACH/IMPACT PCP rounds, four cities",Coverage,,1
+All,headline,Household members covered,2143,,people,2025–2026,"REACH/IMPACT PCP rounds, four cities",Coverage,,2
+All,headline,Lack public health insurance or unsure of eligibility,,83–89%,%,2025–2026,"REACH/IMPACT PCP rounds, four cities",Shared gap — range across the four cities,,3
+All,headline,Out of work because of care responsibilities,,1 in 5+,,2025–2026,"REACH/IMPACT PCP rounds, four cities",Shared barrier — in all four cities,,4
+Comrat,employment,Employed or self-employed,11.7,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",% of respondents,,1
+Bălți,employment,Employed or self-employed,19.0,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",% of respondents,,2
+Chișinău,employment,Employed or self-employed,30.1,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",% of respondents,,3
+Cahul,employment,Employed or self-employed,40.6,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",% of respondents,,4
+Comrat,aid_dependence,Humanitarian assistance as main household income source,53.4,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",% of households,,1
+Bălți,aid_dependence,Humanitarian assistance as main household income source,43.8,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",% of households,,2
+Chișinău,aid_dependence,Humanitarian assistance as main household income source,38.2,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",% of households,,3
+Cahul,aid_dependence,Humanitarian assistance as main household income source,2.8,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",timing: surveyed after humanitarian cash phase-down,,4
+Comrat,employment_income,Employment as main household income source,13.6,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",% of households,,1
+Bălți,employment_income,Employment as main household income source,22.9,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",% of households,,2
+Chișinău,employment_income,Employment as main household income source,27.8,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",% of households,,3
+Cahul,employment_income,Employment as main household income source,59.4,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",timing: surveyed after humanitarian cash phase-down,,4
+Comrat,sample,Households surveyed,103,,households,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Apr 2025,,1
+Bălți,sample,Households surveyed,105,,households,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",Apr 2025,,2
+Chișinău,sample,Households surveyed,532,,households,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",Oct–Nov 2025,,3
+Cahul,sample,Households surveyed,106,,households,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",Jun 2026,,4
+Comrat,archetype,Members aged 60+,27.9,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,1
+Comrat,archetype,Aid = main income,53.4,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,2
+Comrat,archetype,Chronic condition in HH,45.6,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,3
+Comrat,archetype,Hosted / housed free,51.4,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,4
+Bălți,archetype,HHs with children,63.8,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,1
+Bălți,archetype,Single adult + dependents,43.8,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,2
+Bălți,archetype,No children enrolled*,35.7,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,3
+Bălți,archetype,Unstable accommodation,41.9,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,4
+Chișinău,archetype,>50% income on housing,66.7,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,1
+Chișinău,archetype,No tenure document,41.5,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,2
+Chișinău,archetype,Moved at least once,53.0,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,3
+Chișinău,archetype,Employed,30.1,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,4
+Cahul,archetype,Employed,40.6,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,1
+Cahul,archetype,Plan to stay,69.8,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,2
+Cahul,archetype,>50% income on housing,59.4,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,3
+Cahul,archetype,HHs with children,65.1,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Comrat,bottleneck,No public health insurance,83.5,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,2,1
+Bălți,bottleneck,No public health insurance,88.6,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,1,1
+Chișinău,bottleneck,No public health insurance,85.9,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,1,1
+Cahul,bottleneck,No public health insurance,83.0,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,2,1
+Comrat,bottleneck,Out of work due to care duties,25.2,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,1,2
+Bălți,bottleneck,Out of work due to care duties,22.9,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,2,2
+Chișinău,bottleneck,Out of work due to care duties,22.0,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,2,2
+Cahul,bottleneck,Out of work due to care duties,19.8,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,3,2
+Comrat,bottleneck,No Romanian proficiency,63.1,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,1,3
+Bălți,bottleneck,No Romanian proficiency,59.0,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,2,3
+Chișinău,bottleneck,No Romanian proficiency,50.9,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,3,3
+Cahul,bottleneck,No Romanian proficiency,55.7,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,2,3
+Comrat,bottleneck,>50% of income on housing & utilities,35.9,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,4,4
+Bălți,bottleneck,>50% of income on housing & utilities,56.2,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,2,4
+Chișinău,bottleneck,>50% of income on housing & utilities,66.7,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,1,4
+Cahul,bottleneck,>50% of income on housing & utilities,59.4,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,2,4
+Comrat,bottleneck,UA online curriculum preferred*,,not published,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Dominant reason for non-enrolment; counts shown where n<30,,5
+Bălți,bottleneck,UA online curriculum preferred*,,18 of 20,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",Dominant reason for non-enrolment; counts shown where n<30,1,5
+Chișinău,bottleneck,UA online curriculum preferred*,79.7,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",Dominant reason for non-enrolment; counts shown where n<30,1,5
+Cahul,bottleneck,UA online curriculum preferred*,,8 of 12,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",Dominant reason for non-enrolment; counts shown where n<30,2,5
+Comrat,housing_burden,Spend >50% of income on housing & utilities,35.9,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,1
+Bălți,housing_burden,Spend >50% of income on housing & utilities,56.2,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,2
+Chișinău,housing_burden,Spend >50% of income on housing & utilities,66.7,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,3
+Cahul,housing_burden,Spend >50% of income on housing & utilities,59.4,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Chișinău,housing_informality,No tenure document†,41.5,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,1
+Chișinău,housing_informality,Moved ≥ once,53.0,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,2
+Bălți,housing_informality,Unstable accommodation,41.9,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,3
+Cahul,housing_informality,Unstable accommodation,22.6,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Comrat,housing_informality,Renters without documents†,35.0,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Renters only (n=40); a further 22.5% preferred not to answer,,5
+Comrat,housing_tenure,Hosted / housed free,51.4,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,1
+Comrat,housing_tenure,Renting,38.8,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,2
+Bălți,housing_tenure,Renting,66.7,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,3
+Cahul,housing_tenure,Renting,70.7,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Comrat,housing_tenure,≥1 housing problem,25.2,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,5
+Cahul,housing_tenure,≥1 housing problem,22.6,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,6
+Cahul,employment_slope,Employed before displacement,68.9,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,1
+Cahul,employment_slope,Employed now in Moldova,40.6,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,2
+Chișinău,employment_slope,Employed before displacement,59.0,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,1
+Chișinău,employment_slope,Employed now in Moldova,30.1,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,2
+Bălți,employment_slope,Employed before displacement,66.7,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,1
+Bălți,employment_slope,Employed now in Moldova,19.0,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,2
+Comrat,employment_slope,Employed before displacement,,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Pre-displacement employment topline not published,,1
+Comrat,employment_slope,Employed now in Moldova,11.7,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,2
+Comrat,care_barrier,Not working due to care responsibilities,25.2,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,1
+Bălți,care_barrier,Not working due to care responsibilities,22.9,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,2
+Chișinău,care_barrier,Not working due to care responsibilities,22.0,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,3
+Cahul,care_barrier,Not working due to care responsibilities,19.8,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Comrat,health_affordability,Could not afford healthcare,12.6,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",,,1
+Bălți,health_affordability,Could not afford healthcare,9.5,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",,,2
+Chișinău,health_affordability,Could not afford healthcare,3.6,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",,,3
+Cahul,health_affordability,Could not afford healthcare,0.9,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",,,4
+Comrat,education_enrolment,All school-aged children enrolled,66.7,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)","% of HHs with school-aged children; sub-samples Comrat n=39, Bălți n=56, Chișinău n=244, Cahul n=52",,1
+Bălți,education_enrolment,All school-aged children enrolled,64.3,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)","% of HHs with school-aged children; sub-samples Comrat n=39, Bălți n=56, Chișinău n=244, Cahul n=52",,2
+Chișinău,education_enrolment,All school-aged children enrolled,75.8,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)","% of HHs with school-aged children; sub-samples Comrat n=39, Bălți n=56, Chișinău n=244, Cahul n=52",,3
+Cahul,education_enrolment,All school-aged children enrolled,76.9,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)","% of HHs with school-aged children; sub-samples Comrat n=39, Bălți n=56, Chișinău n=244, Cahul n=52",,4
+Comrat,childcare_access,Can access childcare when needed,46.7,7/15,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Small sub-samples (n=15–92); counts shown where n<30,,1
+Bălți,childcare_access,Can access childcare when needed,68.4,13/19,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",Small sub-samples (n=15–92); counts shown where n<30,,2
+Chișinău,childcare_access,Can access childcare when needed,62.0,62%,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",Small sub-samples (n=15–92); counts shown where n<30,,3
+Cahul,childcare_access,Can access childcare when needed,71.0,71%,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",Small sub-samples (n=15–92); counts shown where n<30,,4
+Comrat,information,No information needs reported,39.8,,%,2025,"REACH/IMPACT PCP Comrat, Apr 2025 (N=103 HH)",Digital-confidence module measured only in Chișinău and Cahul,,1
+Bălți,information,No information needs reported,41.0,,%,2025,"REACH/IMPACT PCP Bălți, Apr 2025 (N=105 HH)",Digital-confidence module measured only in Chișinău and Cahul,,2
+Chișinău,information,No information needs reported,49.2,,%,2025,"REACH/IMPACT PCP Chișinău, Oct–Nov 2025 (N=532 HH)",Digital-confidence module measured only in Chișinău and Cahul,,3
+Cahul,information,No information needs reported,84.9,,%,2026,"REACH/IMPACT PCP Cahul, Jun 2026 (N=106 HH)",Digital-confidence module measured only in Chișinău and Cahul,,4
